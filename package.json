@@ -1,6 +1,6 @@
 {
-  "name": "@scom/farming-contract",
-  "version": "0.1.1",
+  "name": "@scom/oswap-farming-contract",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "plugin": "dist/index.js",

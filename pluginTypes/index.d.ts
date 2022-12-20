@@ -1,5 +1,5 @@
-/// <amd-module name="@scom/farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" />
-declare module "@scom/farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.json.ts" {
     const _default: {
         abi: ({
             inputs: {
@@ -44,8 +44,8 @@ declare module "@scom/farming-contract/contracts/@openzeppelin/contracts/token/E
     };
     export default _default;
 }
-/// <amd-module name="@scom/farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" />
-declare module "@scom/farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" />
+declare module "@scom/oswap-farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -139,8 +139,8 @@ declare module "@scom/farming-contract/contracts/@openzeppelin/contracts/token/E
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/Farming.json.ts" />
-declare module "@scom/farming-contract/contracts/Farming.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/Farming.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/Farming.json.ts" {
     const _default_1: {
         abi: ({
             inputs: {
@@ -185,8 +185,8 @@ declare module "@scom/farming-contract/contracts/Farming.json.ts" {
     };
     export default _default_1;
 }
-/// <amd-module name="@scom/farming-contract/contracts/Farming.ts" />
-declare module "@scom/farming-contract/contracts/Farming.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/Farming.ts" />
+declare module "@scom/oswap-farming-contract/contracts/Farming.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         rewardPerBlock: number | BigNumber;
@@ -528,8 +528,8 @@ declare module "@scom/farming-contract/contracts/Farming.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/MasterChef.json.ts" />
-declare module "@scom/farming-contract/contracts/MasterChef.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/MasterChef.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/MasterChef.json.ts" {
     const _default_2: {
         abi: ({
             inputs: {
@@ -574,8 +574,8 @@ declare module "@scom/farming-contract/contracts/MasterChef.json.ts" {
     };
     export default _default_2;
 }
-/// <amd-module name="@scom/farming-contract/contracts/MasterChef.ts" />
-declare module "@scom/farming-contract/contracts/MasterChef.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/MasterChef.ts" />
+declare module "@scom/oswap-farming-contract/contracts/MasterChef.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         rewardToken: string[];
@@ -807,8 +807,8 @@ declare module "@scom/farming-contract/contracts/MasterChef.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/Redeeming.json.ts" />
-declare module "@scom/farming-contract/contracts/Redeeming.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/Redeeming.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/Redeeming.json.ts" {
     const _default_3: {
         abi: ({
             inputs: {
@@ -853,8 +853,8 @@ declare module "@scom/farming-contract/contracts/Redeeming.json.ts" {
     };
     export default _default_3;
 }
-/// <amd-module name="@scom/farming-contract/contracts/Redeeming.ts" />
-declare module "@scom/farming-contract/contracts/Redeeming.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/Redeeming.ts" />
+declare module "@scom/oswap-farming-contract/contracts/Redeeming.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         farming: string;
@@ -955,8 +955,8 @@ declare module "@scom/farming-contract/contracts/Redeeming.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/VestingToken.json.ts" />
-declare module "@scom/farming-contract/contracts/VestingToken.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/VestingToken.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/VestingToken.json.ts" {
     const _default_4: {
         abi: ({
             inputs: {
@@ -1001,8 +1001,8 @@ declare module "@scom/farming-contract/contracts/VestingToken.json.ts" {
     };
     export default _default_4;
 }
-/// <amd-module name="@scom/farming-contract/contracts/VestingToken.ts" />
-declare module "@scom/farming-contract/contracts/VestingToken.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/VestingToken.ts" />
+declare module "@scom/oswap-farming-contract/contracts/VestingToken.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -1212,8 +1212,8 @@ declare module "@scom/farming-contract/contracts/VestingToken.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/draft/AutoVestingToken.json.ts" />
-declare module "@scom/farming-contract/contracts/draft/AutoVestingToken.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/draft/AutoVestingToken.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/draft/AutoVestingToken.json.ts" {
     const _default_5: {
         abi: ({
             inputs: {
@@ -1258,8 +1258,8 @@ declare module "@scom/farming-contract/contracts/draft/AutoVestingToken.json.ts"
     };
     export default _default_5;
 }
-/// <amd-module name="@scom/farming-contract/contracts/draft/AutoVestingToken.ts" />
-declare module "@scom/farming-contract/contracts/draft/AutoVestingToken.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/draft/AutoVestingToken.ts" />
+declare module "@scom/oswap-farming-contract/contracts/draft/AutoVestingToken.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -1418,8 +1418,8 @@ declare module "@scom/farming-contract/contracts/draft/AutoVestingToken.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/draft/MasterChefV2.json.ts" />
-declare module "@scom/farming-contract/contracts/draft/MasterChefV2.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/draft/MasterChefV2.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/draft/MasterChefV2.json.ts" {
     const _default_6: {
         abi: ({
             inputs: {
@@ -1464,8 +1464,8 @@ declare module "@scom/farming-contract/contracts/draft/MasterChefV2.json.ts" {
     };
     export default _default_6;
 }
-/// <amd-module name="@scom/farming-contract/contracts/draft/MasterChefV2.ts" />
-declare module "@scom/farming-contract/contracts/draft/MasterChefV2.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/draft/MasterChefV2.ts" />
+declare module "@scom/oswap-farming-contract/contracts/draft/MasterChefV2.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         rewardsPerBlock: number | BigNumber;
@@ -1690,8 +1690,8 @@ declare module "@scom/farming-contract/contracts/draft/MasterChefV2.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/test/MockERC20.json.ts" />
-declare module "@scom/farming-contract/contracts/test/MockERC20.json.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/test/MockERC20.json.ts" />
+declare module "@scom/oswap-farming-contract/contracts/test/MockERC20.json.ts" {
     const _default_7: {
         abi: ({
             inputs: {
@@ -1736,8 +1736,8 @@ declare module "@scom/farming-contract/contracts/test/MockERC20.json.ts" {
     };
     export default _default_7;
 }
-/// <amd-module name="@scom/farming-contract/contracts/test/MockERC20.ts" />
-declare module "@scom/farming-contract/contracts/test/MockERC20.ts" {
+/// <amd-module name="@scom/oswap-farming-contract/contracts/test/MockERC20.ts" />
+declare module "@scom/oswap-farming-contract/contracts/test/MockERC20.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         symbol: string;
@@ -1841,18 +1841,18 @@ declare module "@scom/farming-contract/contracts/test/MockERC20.ts" {
         }
     }
 }
-/// <amd-module name="@scom/farming-contract/contracts/index.ts" />
-declare module "@scom/farming-contract/contracts/index.ts" {
-    export { ERC20 } from "@scom/farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts";
-    export { Farming } from "@scom/farming-contract/contracts/Farming.ts";
-    export { MasterChef } from "@scom/farming-contract/contracts/MasterChef.ts";
-    export { Redeeming } from "@scom/farming-contract/contracts/Redeeming.ts";
-    export { VestingToken } from "@scom/farming-contract/contracts/VestingToken.ts";
-    export { AutoVestingToken } from "@scom/farming-contract/contracts/draft/AutoVestingToken.ts";
-    export { MasterChefV2 } from "@scom/farming-contract/contracts/draft/MasterChefV2.ts";
-    export { MockERC20 } from "@scom/farming-contract/contracts/test/MockERC20.ts";
+/// <amd-module name="@scom/oswap-farming-contract/contracts/index.ts" />
+declare module "@scom/oswap-farming-contract/contracts/index.ts" {
+    export { ERC20 } from "@scom/oswap-farming-contract/contracts/@openzeppelin/contracts/token/ERC20/ERC20.ts";
+    export { Farming } from "@scom/oswap-farming-contract/contracts/Farming.ts";
+    export { MasterChef } from "@scom/oswap-farming-contract/contracts/MasterChef.ts";
+    export { Redeeming } from "@scom/oswap-farming-contract/contracts/Redeeming.ts";
+    export { VestingToken } from "@scom/oswap-farming-contract/contracts/VestingToken.ts";
+    export { AutoVestingToken } from "@scom/oswap-farming-contract/contracts/draft/AutoVestingToken.ts";
+    export { MasterChefV2 } from "@scom/oswap-farming-contract/contracts/draft/MasterChefV2.ts";
+    export { MockERC20 } from "@scom/oswap-farming-contract/contracts/test/MockERC20.ts";
 }
-/// <amd-module name="@scom/farming-contract" />
-declare module "@scom/farming-contract" {
-    export * as Contracts from "@scom/farming-contract/contracts/index.ts";
+/// <amd-module name="@scom/oswap-farming-contract" />
+declare module "@scom/oswap-farming-contract" {
+    export * as Contracts from "@scom/oswap-farming-contract/contracts/index.ts";
 }
